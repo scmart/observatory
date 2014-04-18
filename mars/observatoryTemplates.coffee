@@ -65,6 +65,16 @@ Template.logs_bootstrap.helpers
 
   isDynamic: ->
     return Session.get "bl_is_dynamic"
+
+  logsClass: ->
+    if Session.get "bl_is_dynamic"
+      return "observatory_panel " + Session.get("bl_panel_height_class")
+    else
+      if !(Session.get "bl_is_visible")
+        return "observatory_panel_static lb_hidden"
+      else
+        return "observatory_panel_static"
+
   #helper to display either full panel or trimmed down version (e.g., just the logs)
   fullFeatured: ->
     Session.get("bl_full_featured_panel")
