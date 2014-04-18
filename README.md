@@ -1,9 +1,13 @@
 What is it?
 -------------
-This is Observatory v0.3.2 - a [Meteorite](https://github.com/oortcloud/meteorite) package that provides powerful, efficient
+This package was forked from the original observatory to support the Meteor blaze rendering engine. (https://github.com/jhoxray/observatory)
+
+
+This is Observatory-blaze v0.4.0 - a [Meteorite](https://github.com/oortcloud/meteorite) package that provides powerful, efficient
 and pretty logging, monitoring and application management for [Meteor framework](http://meteor.com) application development and 
 deployment.
 [See it in action and read full usage docs!](http://observatoryjs.com/).
+
 
 What does it do?
 ------------------
@@ -21,7 +25,7 @@ Installation
 -----------------
 #### With meteorite:
 
-	mrt add observatory
+	mrt add observatory-blaze
 
 Usage
 ---------

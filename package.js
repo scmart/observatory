@@ -8,7 +8,7 @@ Package.on_use(function (api) {
   api.use (['observatory-galileo', 'observatory-apollo'], ['client','server']);
   
   console.log("Loading Observatory:");
-  console.log("This is version 0.3.2 with completely redesigned architecture and a host of new features available - ");
+  console.log("This is version 0.4.0 updated to support blaze - ");
   console.log("please check out http://observatoryjs.com for details. There's automagical logging, profiling, application monitoring and more.");
 
   api.add_files('lib/codemirror/codemirror.js','client');
